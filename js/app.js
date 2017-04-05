@@ -17,6 +17,12 @@ scotchApp.config(function($routeProvider) {
       controller: 'aboutController'
     })
 
+    // route for the other_info page
+    .when('/other', {
+      templateUrl: 'pages/other_info.html',
+      controller: 'otherController'
+    })
+
     // route for the contact page
     .when('/contact', {
       templateUrl: 'pages/contact.html',
@@ -32,6 +38,10 @@ scotchApp.controller('mainController', function($scope) {
 
 scotchApp.controller('aboutController', function($scope) {
   $scope.message = 'Look! I am an about page.';
+});
+
+scotchApp.controller('otherController', function($scope) {
+  $scope.message = 'Look! I am an other page.';
 });
 
 scotchApp.controller('contactController', function($scope) {
