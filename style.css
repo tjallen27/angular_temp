@@ -3,6 +3,11 @@ body {
   padding: 0;
 }
 
+main {
+  width: 100vh;
+  height: 100vh;
+}
+
 p {
   font-size: 20px;
 }
