@@ -20,7 +20,7 @@ h4 {
   max-width: 750px;
 }
 
-.header-container {
+.header__container {
   max-width: 600px;
   position: absolute;
   left: 50%;
