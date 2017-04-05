@@ -18,7 +18,7 @@ scotchApp.config(function($routeProvider) {
     })
 
     // route for the campervan page
-    .when('/campervan', {
+    .when('/campervans', {
       templateUrl: 'pages/campervans.html',
       controller: 'campervanController'
     })
