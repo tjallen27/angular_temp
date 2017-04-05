@@ -17,6 +17,12 @@ scotchApp.config(function($routeProvider) {
       controller: 'aboutController'
     })
 
+    // route for the campervan page
+    .when('/campervan', {
+      templateUrl: 'pages/campervans.html',
+      controller: 'campervanController'
+    })
+
     // route for the other_info page
     .when('/other', {
       templateUrl: 'pages/other_info.html',
@@ -38,6 +44,10 @@ scotchApp.controller('mainController', function($scope) {
 
 scotchApp.controller('aboutController', function($scope) {
   $scope.message = 'Look! I am an about page.';
+});
+
+scotchApp.controller('campervanController', function($scope) {
+  $scope.message = 'Look! I am an campervan page.';
 });
 
 scotchApp.controller('otherController', function($scope) {
