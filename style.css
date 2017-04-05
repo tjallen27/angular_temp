@@ -16,8 +16,9 @@ h4 {
   margin-top: 20px;
 }
 
-nav {
-  
+.navbar .navbar-default{
+  background: none;
+  border: none;
 }
 
 .container {
