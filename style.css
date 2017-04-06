@@ -16,6 +16,11 @@ h1 {
   font-family: 'Reenie Beanie', cursive;
 }
 
+h2 {
+  font-size: 64px;
+  font-family: 'Reenie Beanie', cursive;
+}
+
 h4 {
   margin-top: 20px;
 }
@@ -45,7 +50,13 @@ footer {
   border: none;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: 28px;
+}
+
 .container {
+  margin-top: 5%;
   max-width: 750px;
   min-height: 88vh;
 }
