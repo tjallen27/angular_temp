@@ -26,9 +26,9 @@ p {
 footer {
   background: rgb(35, 35, 35);
   color: #666;
-  position: absolute;
-  height: inherit;
-  bottom: 0;
+  position: relative;
+  height: 40px;
+  margin-bottom: 0;
   right: 0;
   width: 100%;
 }
