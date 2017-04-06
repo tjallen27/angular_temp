@@ -10,17 +10,28 @@ main {
   color: #fff;
 }
 
-p {
-  font-size: 20px;
+
+h1 {
+  font-size: 76px;
 }
 
 h4 {
   margin-top: 20px;
 }
 
+p {
+  font-size: 20px;
+}
+
 footer {
   position: relative;
   height: inherit;
+  background: rgb(35, 35, 35);
+  color: #666;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .navbar-default{
@@ -37,7 +48,7 @@ footer {
   max-width: 600px;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 23%;
   transform: translateX(-50%) translateY(-50%);
 }
 
