@@ -17,10 +17,7 @@ h4 {
 
 footer {
   position: relative;
-  left: 50%;
-  bottom: 0;
-  height: 100px;
-  transform: translateX(-50%) translateY(-50%);
+  height: inherit;
 }
 
 .navbar-default{
@@ -30,7 +27,7 @@ footer {
 
 .container {
   max-width: 750px;
-  min-height: 100vh;
+  min-height: 88vh;
 }
 
 .header__container {
