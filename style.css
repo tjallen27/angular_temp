@@ -16,7 +16,7 @@ h4 {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   left: 50%;
   bottom: 0;
   height: 100px;
