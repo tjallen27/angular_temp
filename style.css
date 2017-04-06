@@ -13,6 +13,7 @@ main {
 
 h1 {
   font-size: 76px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 h4 {
@@ -36,6 +37,7 @@ footer {
 
 .navbar {
   margin-bottom: 0;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 .navbar-default{
