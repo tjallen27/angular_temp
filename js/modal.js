@@ -1,5 +1,5 @@
 // animations will be added soon
-var modal = angular.module('dx.ModalDialog', []);
+var modal = angular.module('scotchApp', []);
 
 // I think that each dialog should have its own controller
 function ModalDialogController($scope, ModalDialog) {
