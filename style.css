@@ -40,22 +40,6 @@ footer {
   padding: 10px;
 }
 
-
-div.navbar-collapse.collapse {
-    	display: block;
-    	overflow: hidden;
-    	max-height: 0px;
-    	-webkit-transition: max-height .3s ease;
-    	-moz-transition: max-height .3s ease;
-    	-o-transition: max-height .3s ease;
-    	transition: max-height .3s ease;
-  }
-
-div.navbar-collapse.collapse.in {
-	max-height: 2000px;
-}
-
-
 .navbar {
   margin-bottom: 0;
   font-family: 'Reenie Beanie', cursive;
@@ -95,7 +79,7 @@ div.navbar-collapse.collapse.in {
   border-radius: 10px;
 }
 
-li {
+.col-xs-6 li {
   margin: 0;
   padding: 0 5px;
   list-style: none;
