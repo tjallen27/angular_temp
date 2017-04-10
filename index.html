@@ -17,27 +17,39 @@
   <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.min.js"></script>
+  <script data-require="ui-bootstrap@0.5.0" data-semver="0.5.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.6.0.js"></script>
   <script src="./js/app.js"></script>
 </head>
 
 <!-- define angular controller -->
 <body ng-controller="mainController">
 
-  <nav class="navbar navbar-default">
-    <div>
-      <!-- <div class="navbar-header">
-        <a class="navbar-brand" href="#">Angular Template</a>
-      </div> -->
+  <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"> Home</a></li>
-        <li><a href="#about"> About</a></li>
-        <li><a href="#campervans"> Our Campervans</a></li>
-        <li><a href="#other"> Other Info</a></li>
-        <li><a href="#contact"> Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+        <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
+
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Campervans</a></li>
+          <li><a href="#">Other Info</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </nav>
 
   <div id="main">
 
