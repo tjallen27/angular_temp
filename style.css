@@ -40,6 +40,24 @@ footer {
   padding: 10px;
 }
 
+
+
+.navbar {
+  margin-bottom: 0;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+.navbar-default{
+  background: none;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  padding: 12px 30px;
+  color: #777;
+  font-size: 28px;
+}
+
 /* centered navigation */
  .nav.navbar-nav {
      float: left;
@@ -60,23 +78,6 @@ footer {
  .nav.navbar-nav li {
     text-align: left
  }
-}
-
-.navbar {
-  margin-bottom: 0;
-  font-family: 'Reenie Beanie', cursive;
-}
-
-.navbar-default{
-  background: none;
-  border: none;
-}
-
-.navbar-default .navbar-nav>li>a {
-  padding: 12px 30px;
-  color: #777;
-  font-size: 28px;
-}
 
 .container {
   margin-top: 5%;
