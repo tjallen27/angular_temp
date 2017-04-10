@@ -123,3 +123,7 @@ footer {
 .col-xs-6 {
   padding: 2px;
 }
+
+.camper__list p {
+  font-size: 1em;
+}
