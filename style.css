@@ -8,6 +8,7 @@ main {
   background: url('./assets/header_bg2.jpg');
   background-size: cover;
   color: #fff;
+  margin-top: -50px;
 }
 
 
@@ -77,6 +78,11 @@ footer {
  .nav.navbar-nav li {
     text-align: left
  }
+
+ .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e6e6e6;
+    margin-bottom: 50px;
+}
 
 .container {
   margin-top: 5%;
