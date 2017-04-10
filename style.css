@@ -87,7 +87,16 @@ div.navbar-collapse.collapse {
     	-moz-transition: max-height .3s ease;
     	-o-transition: max-height .3s ease;
     	transition: max-height .3s ease;
-    }
-    div.navbar-collapse.collapse.in {
-    	max-height: 2000px;
-    }
+  }
+
+div.navbar-collapse.collapse.in {
+	max-height: 2000px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
