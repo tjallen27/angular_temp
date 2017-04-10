@@ -93,15 +93,14 @@ div.navbar-collapse.collapse.in {
 	max-height: 2000px;
 }
 
-ul,
+/*ul,
 li {
   margin: 0;
-  padding: 0;
-  padding: 0;
+  padding: 0 5px;
   list-style: none;
-  width: 100%;
+  width: 90%;
 }
 
 .col-xs-6 {
   padding: 5px;
-}
+}*/
